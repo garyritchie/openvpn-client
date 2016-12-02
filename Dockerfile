@@ -1,5 +1,5 @@
-FROM debian:stretch
-MAINTAINER David Personette <dperson@gmail.com>
+FROM resin/rpi-raspbian:jessie
+MAINTAINER Gary Ritchie <gary@garyritchie.com>
 
 # Install openvpn
 RUN export DEBIAN_FRONTEND='noninteractive' && \
